@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+
+font-family: 'Dancing Script', cursive;
+
+}
+
+.header{
+
+background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+padding: 300px 0;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+text-align: center;
+
+}
+
+.header h3{
+ font-size: 22px;
+font-style: italic;
+color: #363636;
+padding: 10px 0 40px 0;
+
+
+}
+
+.header h1{
+    font-size: 80px;
+    color: #363636;
+}
+
+.header button , .iki button{
+
+padding: 20px 25px;
+background-color: #1d809f;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: 900;
+transition: background-color .3s;
+}
+
+.header button:hover{
+    background-color: #155d74;
+    
+    
+}
+
+.iki{
+padding: 100px 0;
+text-align: center;
+
+}
+
+.iki h2{
+font-weight: 900;
+font-size: 29px;
+color: #363636;
+}
+
+.iki p{
+padding: 20px 0 40px 0;
+
+}
+
+.iki p a{
+
+    text-decoration: none;
+    color: 1d809f;
+
+}
+
+.iki p a:hover{
+
+    text-decoration: underline;
+}
+    
+
+
+
+.iki button{
+
+background-color: #363636;
+
+}
+
+.iki button:hover{
+background-color: #202020;
+
+}
+/* -------------- */
+
+.services{
+padding: 100px 0;
+background-color: #1d809f;
+
+}
+
+.wrapper{
+width: 80%;
+margin: auto;
+
+}
+
+.services .text{
+
+text-align: center;
+
+}
+
+.services .text h3{
+color: #ecb807;
+text-transform: uppercase;
+}
+
+
+.services .text h1{
+color: white;
+
+}
+
+.icon1{
+width: 25%;
+text-align: center;
+color: white;
+float: left;
+}
+
+
+
+
+
+.icon-img{
+    width: max-content;
+    padding: 50px 55px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+.icon-img i{
+color: #1d809f;
+font-size: 50px;
+
+}
+
+.icon1 h2{
+padding: 15px 0 10px 0;
+
+}
+
+.icon1 p{
+opacity: 0.6;
+
+}
+
+.work{
+    padding: 100px 0;
+}
+
+
+.station{
+    width: 50%;
+    clip-path: inset(0);
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: clip-path .4s;
+    float: left;
+}
+
+.station:hover{
+    clip-path: inset(15px);
+   
+}
